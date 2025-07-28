@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  background: black;
+  color: lime;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  border: 2px solid lime;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px lime;
+}
+
+button {
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 18px;
+  background: lime;
+  border: none;
+  color: black;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: black;
+  color: lime;
+  border: 2px solid lime;
+}
