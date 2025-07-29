@@ -1,36 +1,44 @@
 body {
-  margin: 0;
-  background: black;
-  color: lime;
-  font-family: 'Orbitron', sans-serif;
-  text-align: center;
+  background-color: #0f0f0f;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin: 0;
 }
 
-.container {
-  border: 2px solid lime;
+.jarvis-box {
+  text-align: center;
+  background: #1c1c1c;
   padding: 30px;
-  border-radius: 20px;
-  box-shadow: 0 0 20px lime;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
 }
 
 button {
-  margin-top: 20px;
-  padding: 15px 30px;
+  padding: 10px 20px;
   font-size: 18px;
-  background: lime;
   border: none;
-  color: black;
-  border-radius: 10px;
+  border-radius: 8px;
+  background-color: #00ffff;
+  color: #000;
   cursor: pointer;
-  transition: 0.3s ease;
+  margin-top: 20px;
 }
 
-button:hover {
-  background: black;
-  color: lime;
-  border: 2px solid lime;
+#jarvisReply {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+body.light-theme {
+  background-color: #f2f2f2;
+  color: #222;
+}
+
+body.light-theme .jarvis-box {
+  background: #fff;
+  border: 2px solid #ccc;
 }
